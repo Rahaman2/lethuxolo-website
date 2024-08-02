@@ -686,7 +686,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(19, 106, 213, 0.85);
+      background: rgba(51, 51, 63, .85);
       z-index: -0; }
   .untree_co-hero > .container, .bg-img > .container {
     position: relative;
@@ -1041,7 +1041,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .count-numbers .counter {
   font-size: 26px;
   font-family: "Display Playfair", serif;
-  color: #136ad5; }
+  color: rgb(51, 51, 63); }
 
 .pricing {
   text-align: center;
@@ -1327,7 +1327,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .custom-accordion .accordion-item .btn-link[aria-expanded="true"] {
       font-weight: 700;
       color: #ffffff !important;
-      background: #136ad5; }
+      background: black; }
       .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
         font-family: 'icomoon';
         content: "\f068";
