@@ -1,12 +1,15 @@
-
+/*
+ #00D4AF turquouise
+#000000 black
+*/
 body {
   scroll-behavior: smooth !important;
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-  background-color: #ffffff;
+  background-color: #00D4AF;
   overflow-x: hidden;
   font-size: 16px;
-  color: #666; }
+  color: black; }
   body:before {
     content: "";
     position: fixed;
@@ -30,13 +33,20 @@ body {
 
 .text-secondary {
   color: #00aeff !important; }
-
+.text-bold {
+  font-weight: 900;
+}
 .bg-primary-light {
   background-color: rgba(19, 106, 213, 0.05); }
 
 .bg-secondary-light {
   background-color: rgba(0, 174, 255, 0.05); }
-
+.text-t {
+  color: #00D4AF !important;
+}
+.bg-t {
+  background-color: #00D4AF !important;
+}
 a {
   color: #136ad5;
   -webkit-transition: .3s all ease;
@@ -795,7 +805,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .feature {
   margin-bottom: 40px;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background: #ffffff;
+  background: #2C2C38;
   padding: 30px;
   border-radius: 4px;
   text-align: center; }
@@ -805,7 +815,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative;
     margin-bottom: 30px;
     font-size: 30px;
-    color: #136ad5;
+    color: #00D4AF !important;
     width: 50px;
     height: 50px;
     line-height: 50px;

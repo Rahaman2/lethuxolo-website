@@ -1,19 +1,20 @@
-li = [2,9,5,4,8,1]
+class Position: 
+    def __init__(self, name:str) -> None:
+        self.name = name
+        self.token = None
+
+    def assign_token(self, token):
+        self.name = token
+
+    def is_occupied(self) -> bool:
+        return self.token != None
+    
 
 
+class Token:
+    def __init__(self, color) -> None:
+        pass
 
 
-def bubble_sort(nums:list):
-
-    for i in range(len(nums)):
-        for j in range(len(nums) - i - 1):
-            first = nums[j]
-            if nums[j] > nums[j + 1]:
-                nums[j] = nums[j + 1]
-                nums[j + 1] = first
-        print(nums)
-    return nums
-
-
-
-print(bubble_sort(li))
+p = Position("A")
+print(p.is_occupied())
